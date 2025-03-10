@@ -4,9 +4,9 @@ from PIL import Image, ImageTk
 import tkinter as tk
 
 # Define the paths to the folders
-general_folder = "/Users/liuyuhan/Desktop/Asian_Indian_classify/Indian/indian_2000"
-folder1 = "/Users/liuyuhan/Desktop/Asian_Indian_classify/Indian/Non_Indian"
-folder2 = "/Users/liuyuhan/Desktop/Asian_Indian_classify/Indian/Unclear_Unsure"
+general_folder = "your path to the general folder"
+folder1 = "your path to the folder1"
+folder2 = "your path to the folder2"
 
 # Ensure the target folders exist
 os.makedirs(folder1, exist_ok=True)
